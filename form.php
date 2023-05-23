@@ -19,7 +19,7 @@
 <body>
     <div class="w-100 bg-dark">
         <div class="container p-5 mb-2 text-white">
-            <h1>Superhero Registration</h1>
+            <h1>Регистрация</h1>
             <?php
             if (!empty($_SESSION['login'])) {
                 ?><a class="col btn btn-danger btn-lg mt-4" href="login.php" role="button">Выйти</a><?php
